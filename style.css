@@ -1,17 +1,26 @@
 body {
-    background-color: rgb(217, 205, 205);
+    background-color: rgb(214, 228, 231);
+    margin: 30px;
 }
 
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     /* 3 colonnes de largeur égale */
-    grid-gap: 10px;
+    grid-gap: 40px;
     /* Espacement entre les éléments */
+
 }
 
-.item {
+article {
+    display: grid;
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
+    border-radius: 5px;
+}
+
+button {
+    text-transform: lowercase;
+    font-variant: small-caps;
 }
