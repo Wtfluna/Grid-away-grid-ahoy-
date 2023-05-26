@@ -1,3 +1,9 @@
+* {
+    font-family: 'Varela Round', sans-serif;
+    color:rgb(172, 164, 164)
+
+}
+
 body {
     background-color: rgb(214, 228, 231);
     margin: 30px;
@@ -9,18 +15,39 @@ body {
     /* 3 colonnes de largeur égale */
     grid-gap: 40px;
     /* Espacement entre les éléments */
-
 }
 
 article {
     display: grid;
+    grid-template-rows: 200px;
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
     border-radius: 5px;
 }
 
-button {
+.icone {
+    font-size: 50px;
+}
+
+.ligne {
+    border-top: solid 1px grey;
+    margin-bottom: 15px;
+}
+
+a {
+    display: grid;
     text-transform: lowercase;
+    text-decoration: none;
     font-variant: small-caps;
+    font-size: 20px;
+
+}
+
+a:hover {
+    background-color: rgb(107, 158, 203);
+    border: 13px solid rgba (107, 158, 203);
+    border-radius: 18px;
+    box-shadow: 0 2px 5px rgb(107, 158, 203);
+    cursor: pointer
 }
