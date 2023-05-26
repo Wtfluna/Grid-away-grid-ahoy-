@@ -1,12 +1,11 @@
 * {
     font-family: 'Varela Round', sans-serif;
-    color:rgb(172, 164, 164)
-
+    color: rgb(172, 164, 164)
 }
 
 body {
     background-color: rgb(214, 228, 231);
-    margin: 30px;
+    margin: 40px;
 }
 
 .grid-container {
@@ -26,6 +25,15 @@ article {
     border-radius: 5px;
 }
 
+h2 {
+    display: inline-block;
+    margin-top: 10px;
+}
+
+p {
+    display: inline-block;
+}
+
 .icone {
     font-size: 50px;
 }
@@ -37,17 +45,20 @@ article {
 
 a {
     display: grid;
-    text-transform: lowercase;
+    text-transform: uppercase;
     text-decoration: none;
-    font-variant: small-caps;
-    font-size: 20px;
+    font-weight: 700;
+    font-size: 15px;
+    margin-top: 10px;
 
 }
 
 a:hover {
+    color: white;
     background-color: rgb(107, 158, 203);
     border: 13px solid rgba (107, 158, 203);
     border-radius: 18px;
     box-shadow: 0 2px 5px rgb(107, 158, 203);
-    cursor: pointer
+    cursor: pointer;
+    padding: 10px;
 }
