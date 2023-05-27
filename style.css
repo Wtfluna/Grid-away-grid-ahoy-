@@ -11,14 +11,14 @@ body {
 .grid-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    /* 3 colonnes de largeur égale */
+    /* 4 colonnes de largeur égale */
     grid-gap: 40px;
     /* Espacement entre les éléments */
 }
 
 article {
-    display: grid;
-    grid-template-rows: 200px;
+    /* display: grid;
+    grid-template-rows: 200px; */
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
