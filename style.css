@@ -17,48 +17,39 @@ body {
 }
 
 article {
-    /* display: grid;
-    grid-template-rows: 200px; */
     background-color: #ffffff;
     padding: 20px;
     text-align: center;
     border-radius: 5px;
 }
 
-h2 {
-    display: inline-block;
-    margin-top: 10px;
-}
-
-p {
-    display: inline-block;
-}
-
 .icone {
+    padding: 20px;
     font-size: 50px;
+    color: #4b77c3;
 }
 
-.ligne {
-    border-top: solid 1px grey;
-    margin-bottom: 15px;
+h2 {
+    margin-top: 20px;
 }
 
-a {
-    display: grid;
+hr {
+    width: 30%;
+}
+
+button {
+    padding: 14px;
+    border-style: none;
+    background-color: white;
     text-transform: uppercase;
-    text-decoration: none;
     font-weight: 700;
     font-size: 15px;
-    margin-top: 10px;
-
+    cursor: pointer;
 }
 
-a:hover {
+button:hover {
     color: white;
+    border-radius: 22px;
     background-color: rgb(107, 158, 203);
-    border: 13px solid rgba (107, 158, 203);
-    border-radius: 18px;
     box-shadow: 0 2px 5px rgb(107, 158, 203);
-    cursor: pointer;
-    padding: 10px;
 }
